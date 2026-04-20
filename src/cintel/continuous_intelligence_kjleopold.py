@@ -140,6 +140,8 @@ def main() -> None:
 
     LOG.info(f"STEP 3. Anomalies detected: {anomalies_df.height}")
 
+    anomaly_count = anomalies_df.height
+
     # ----------------------------------------------------
     # STEP 4: SUMMARIZE CURRENT SYSTEM STATE
     # ----------------------------------------------------
@@ -164,7 +166,7 @@ def main() -> None:
             pl.col("error_rate").mean().alias("avg_error_rate"),
             pl.col("avg_latency_ms").mean().alias("avg_latency_ms"),
         ]
-    )
+    ).with_columns(pl.lit(anomaly_count).alias("anomaly_count"))
 
     # Add a simple assessment label
     summary_df = summary_df.with_columns(
@@ -176,6 +178,7 @@ def main() -> None:
         .when(
             (pl.col("avg_error_rate") > MAX_ERROR_RATE * 0.8)
             | (pl.col("avg_latency_ms") > MAX_AVG_LATENCY * 0.8)
+            | (pl.col("anomaly_count") > 2)
         )
         .then(pl.lit("WARNING"))
         .otherwise(pl.lit("STABLE"))
