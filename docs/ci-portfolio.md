@@ -21,7 +21,7 @@ This module focused on setting up the basic structure and tools needed for a con
 This module focused on anomaly detection using thresholds and rules. In my project, I used the original thresholds for age and height, and added new rules to catch unrealistic combinations, like very young children with unusually high heights, as well as very small heights.
 
 ### Artifacts
-[Artifacts](https://github.com/kjleopold/cintel-02-static-anomalies/tree/main/artifacts)  
+[Artifacts](https://github.com/kjleopold/cintel-02-static-anomalies/tree/main/artifacts)
 The main artifact was a CSV file showing the detected anomalies. In my project, I also included a column that explained why each anomaly was flagged, such as age too high or unrealistic combinations. This made it easier to see what was wrong with each data point and understand the results.
 
 ### Insights
@@ -77,7 +77,7 @@ This module showed that comparing time periods helps identify meaningful changes
 This module focused on combining multiple CI techniques like anomaly detection, signal design, and summarizing system performance into one pipeline. I used derived signals like error rate and average latency, detected anomalies using thresholds, and added logic to evaluate the overall system state.
 
 ### Artifacts
-[Artifacts](https://github.com/kjleopold/cintel-06-continuous-intelligence/tree/main/artifacts)
+[Artifacts](https://github.com/kjleopold/cintel-06-continuous-intelligence/tree/main/artifacts)  
 The main artifact was a summary CSV file that included averages, anomaly count, and a system state classification. The file showed both overall performance and how often issues occurred, making it easier to understand why the system was labeled as stable, warning, or degraded.
 
 ### Assessment
