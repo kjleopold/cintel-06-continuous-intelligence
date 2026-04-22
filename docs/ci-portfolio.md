@@ -21,7 +21,7 @@ This module focused on setting up the basic structure and tools needed for a con
 This module focused on anomaly detection using thresholds and rules. In my project, I used the original thresholds for age and height, and added new rules to catch unrealistic combinations, like very young children with unusually high heights, as well as very small heights.
 
 ### Artifacts
-[Artifacts](https://github.com/kjleopold/cintel-02-static-anomalies/tree/main/artifacts)
+[Artifacts Folder Link](https://github.com/kjleopold/cintel-02-static-anomalies/tree/main/artifacts)
 
 The main artifact was a CSV file showing the detected anomalies. In my project, I also included a column that explained why each anomaly was flagged, such as age too high or unrealistic combinations. This made it easier to see what was wrong with each data point and understand the results.
 
@@ -36,7 +36,7 @@ This module showed that adding more rules helps catch different types of anomali
 This module focused on creating signals from raw data like error rate, average latency, and throughput. In my project, I also added a performance score that combines errors and latency into one value to give a quick overall view of system performance.
 
 ### Artifacts
-[Artifacts](https://github.com/kjleopold/cintel-03-signal-design/tree/main/artifacts)
+[Artifacts Folder Link](https://github.com/kjleopold/cintel-03-signal-design/tree/main/artifacts)
 
 The main artifact was a CSV file that included both the original data and the new signal columns. In my project, this included error rate, average latency, throughput, and performance score. The file showed how each observation performed and made it easier to compare results across rows.
 
@@ -51,7 +51,7 @@ This module showed that derived signals are more useful than raw data for unders
 This module focused on using time series data and rolling metrics to monitor system behavior over time. I used rolling averages for requests, errors, and latency, and added logic to classify system performance as normal, warning, or critical based on thresholds.
 
 ### Artifacts
-[Artifacts](https://github.com/kjleopold/cintel-04-rolling-monitoring/tree/main/artifacts)
+[Artifacts Folder Link](https://github.com/kjleopold/cintel-04-rolling-monitoring/tree/main/artifacts)
 
 The main artifact was a CSV file that included rolling averages for requests, errors, and latency, along with a system status for each timestamp. The file showed how performance changed over time and which points were classified as normal, warning, or critical.
 
@@ -66,7 +66,7 @@ This module showed that rolling metrics help smooth out short-term changes and m
 This module focused on drift detection by comparing a reference dataset to a current dataset. I used averages, calculated differences between the two periods, and applied thresholds to determine if the changes were significant. I also added an error rate signal to better evaluate changes in system reliability.
 
 ### Artifacts
-[Artifacts](https://github.com/kjleopold/cintel-05-drift-detection/tree/main/artifacts)
+[Artifacts Folder Link](https://github.com/kjleopold/cintel-05-drift-detection/tree/main/artifacts)
 
 The artifacts folder includes summary CSV files that show the reference and current averages, their differences, and drift flags. The long-form versions display the same information in a more readable format by listing one field per row. These files showed how the metrics changed between the two periods and made it easier to see which values were flagged as drifting.
 
@@ -81,7 +81,7 @@ This module showed that comparing time periods helps identify meaningful changes
 This module focused on combining multiple CI techniques like anomaly detection, signal design, and summarizing system performance into one pipeline. I used derived signals like error rate and average latency, detected anomalies using thresholds, and added logic to evaluate the overall system state.
 
 ### Artifacts
-[Artifacts](https://github.com/kjleopold/cintel-06-continuous-intelligence/tree/main/artifacts)
+[Artifacts Folder Link](https://github.com/kjleopold/cintel-06-continuous-intelligence/tree/main/artifacts)
 
 The main artifact was a summary CSV file that included averages, anomaly count, and a system state classification. The file showed both overall performance and how often issues occurred, making it easier to understand why the system was labeled as stable, warning, or degraded.
 
