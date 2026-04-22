@@ -8,11 +8,13 @@ This page summarizes my work on continuous intelligence projects.
 
 ## 1. Professional Project
 ### Repository Link
+[cintel-01-getting-started](https://github.com/kjleopold/cintel-01-getting-started)
 
 ### Brief Overview of Project Tools and Choices
 
 ## 2. Anomaly Detection
 ### Repository Link
+[cintel-02-static-anomolies](https://github.com/kjleopold/cintel-02-static-anomalies)
 
 ### Techniques
 
@@ -22,6 +24,7 @@ This page summarizes my work on continuous intelligence projects.
 
 ## 3. Signal Design
 ### Repository Link
+[cintel-03-signal-design](https://github.com/kjleopold/cintel-03-signal-design)
 
 ### Signals
 
@@ -31,6 +34,7 @@ This page summarizes my work on continuous intelligence projects.
 
 ## 4. Rolling Monitoring
 ### Repository Link
+[cintel-04-rolling-monitoring](https://github.com/kjleopold/cintel-04-rolling-monitoring)
 
 ### Techniques
 
@@ -40,6 +44,7 @@ This page summarizes my work on continuous intelligence projects.
 
 ## 5. Drift Detection
 ### Repository Link
+[cintel-05-drift-detection](https://github.com/kjleopold/cintel-05-drift-detection)
 
 ### Techniques
 
@@ -49,6 +54,7 @@ This page summarizes my work on continuous intelligence projects.
 
 ## 6. Continuous Intelligence Pipeline
 ### Repository Link
+[cintel-06-continuous-intelligence](https://github.com/kjleopold/cintel-06-continuous-intelligence)
 
 ### Techniques
 
